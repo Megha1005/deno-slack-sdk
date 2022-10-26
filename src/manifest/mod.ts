@@ -36,7 +36,7 @@ export class SlackManifest {
     const manifest: ManifestSchema = {
       _metadata: {
         // todo: is there a more idiomatic way of defining this? constant file?
-        major_version: 2,
+        major_version: 1,
       },
       display_information: {
         background_color: def.backgroundColor,
